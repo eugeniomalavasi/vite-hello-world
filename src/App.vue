@@ -1,10 +1,10 @@
 <script>
 import AppTitle from './components/AppTitle.vue';
-import Banner from './components/Banner.vue'
+import AppBanner from './components/AppBanner.vue'
 export default {
   components: {
     AppTitle,
-    Banner,
+    AppBanner,
   }, data() {
     return {
       
@@ -16,7 +16,7 @@ export default {
 <template>
   
   <AppTitle />
-  <Banner />
+  <AppBanner />
 
 </template>
 
